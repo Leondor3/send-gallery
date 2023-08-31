@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    @apply text-gray-50 bg-zinc-950
+}
+
+hr {
+    @apply border border-zinc-900 w-full
+}
